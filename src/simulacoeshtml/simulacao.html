@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TABELA DE JUROS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+        <style>
+            #customers {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+            #customers tr:hover {background-color: #ddd;}
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #000000; /* #4CAF50; */
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-container">
+            <h2>Simula&ccedil;&atilde;o de Juros</h2>
+            <p>Demonstração de c&aacute;lculo de juros para contas a prazo.</p>
+            <div class="w3-card-4" style="width:50%;">
+                <header class="w3-container w3-blue">
+                    <h1>Juros</h1>
+                </header>
+                <div class="w3-container">
+                    <table style="width:100%;text-align: left;" >
+                        <tr>
+                            <th>Valor inicial</th>
+                            <th>Dias</th>
+                            <th>Acumulado</th>
+                            <th>Juro</th>
+                        </tr>
+                        <tr>
+<td>1000&euro;</td>
+<td>161 </td>
+<td>1030.0&euro;</td>
+<td>0.03%</td>
+                        </tr>
+                    </table>
+                </div>
+                <footer class="w3-container w3-blue">
+                    <h5>Proposta gerada em 01-01-01.</h5>
+                </footer>
+            </div>
+        </div>
+        <br>
+        <br>
+        <table id="customers">
+            <tr>
+                <th>Dias (inicial)</th>
+                <th>Dias (final)</th>
+                <th>Juro</th>
+            </tr>
+<tr><td>1</td><td>30</td><td>0.01</td></tr><tr><td>31</td><td>60</td><td>0.02</td></tr><tr><td>61</td><td>180</td><td>0.03</td></tr><tr><td>181</td><td>365</td><td>0.1</td></tr>
+
+
+
+
+        </table>
+    </body>
+</html>
